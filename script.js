@@ -1,10 +1,12 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const select = document.getElementById("colorSelect");
-    const button = document.querySelector("input[type='button']");
+function remove_color(){
+	let removalcolor = document.getElementById("colorSelect")
+	let button = document.getquerySelector("input[type='button']")
 
-    button.addEventListener("click", function () {
-        if (select.selectedIndex !== -1) {
-            select.remove(select.selectedIndex);
-        }
-    });
-});
+	button.addEventListener("click" function() {
+		if(select.selectedIndex! == -1){
+			select.remove(select.selectedIndex)
+			
+		}
+	});
+	
+}
