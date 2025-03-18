@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+function () {
     let select = document.getElementById("colorSelect");
     let button = document.querySelector("input[type='button']");
 
