@@ -1,4 +1,4 @@
-document.addEventListener( function () {
+
     let select = document.getElementById("colorSelect");
     let button = document.querySelector("input[type='button']");
 
@@ -7,4 +7,3 @@ document.addEventListener( function () {
             select.remove(select.selectedIndex);
         }
     });
-});
